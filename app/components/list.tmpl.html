@@ -1,0 +1,12 @@
+<md-list>
+  <md-list-item ng-repeat="item in $ctrl.list track by item.id">
+    <item
+        data="item"
+        on-remove="$ctrl.removeReminder(id)"
+        on-change="$ctrl.updateReminder(id, reminder)"
+        layout-align="space-between end"
+        layout="row" layout-margin style="width: 100%"
+    ></item>
+    <md-divider></md-divider>
+  </md-list-item>
+</md-list>

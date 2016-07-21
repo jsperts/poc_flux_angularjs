@@ -1,0 +1,34 @@
+{
+  "reminders": [
+    {
+      "id": 1,
+      "title": "Foo bar",
+      "date": "2016-07-21T11:30:49.994Z",
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "title": "Bla Blup",
+      "date": "2016-06-21T11:30:49.994Z",
+      "isDone": true
+    },
+    {
+      "id": 3,
+      "title": "Bar buz",
+      "date": "2016-07-16T11:30:49.994Z",
+      "isDone": false
+    },
+    {
+      "title": "asdasd",
+      "date": "2016-07-12T22:00:00.000Z",
+      "isDone": true,
+      "id": 4
+    },
+    {
+      "title": "new",
+      "date": "2016-07-21T22:00:00.000Z",
+      "isDone": false,
+      "id": 5
+    }
+  ]
+}

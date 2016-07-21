@@ -1,0 +1,13 @@
+<md-checkbox
+    aria-label="is done checkbox"
+    ng-click="$ctrl.change($ctrl.data.id, $ctrl.data)"
+    ng-model="$ctrl.data.isDone"
+></md-checkbox>
+<h4 flex="60">{{$ctrl.data.title}}</h4>
+<h4 flex="20">{{$ctrl.data.date | date}}</h4>
+<md-button
+    ng-click="$ctrl.remove($ctrl.data.id)"
+    class="md-accent md-raised"
+>
+  {{'DELETE' | translate}}
+</md-button>

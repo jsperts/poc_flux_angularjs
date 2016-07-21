@@ -1,0 +1,62 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <title>Reminders</title>
+  <link rel="stylesheet" href="./node_modules/angular-material/angular-material.css">
+  <style>
+    body {
+      width: 900px;
+      margin: auto;
+    }
+  </style>
+  <script src="./node_modules/angular/angular.js"></script>
+  <script src="./node_modules/angular-animate/angular-animate.js"></script>
+  <script src="./node_modules/angular-aria/angular-aria.js"></script>
+  <script src="./node_modules/angular-material/angular-material.js"></script>
+  <script src="./node_modules/angular-translate/dist/angular-translate.js"></script>
+  <script src="./node_modules/angular-dynamic-locale/dist/tmhDynamicLocale.js"></script>
+</head>
+<body>
+<reminder-app></reminder-app>
+
+<!-- Modules -->
+<script src="./app/app.module.js"></script>
+<script src="./app/actions/actions.module.js"></script>
+<script src="./app/common/common.module.js"></script>
+<script src="./app/components/components.module.js"></script>
+<script src="./app/i18n/i18n.module.js"></script>
+<script src="./app/stores/stores.module.js"></script>
+
+
+<script src="./app/app.component.js"></script>
+<script src="./app/app.run.js"></script>
+
+<!-- Actions -->
+<script src="./app/actions/reminder_actions.service.js"></script>
+<script src="./app/actions/i18n_actions.service.js"></script>
+
+<!-- Common -->
+<script src="./app/common/common.constant.js"></script>
+<script src="./app/common/dispatcher.service.js"></script>
+<script src="./app/common/server_comm.service.js"></script>
+
+<!-- Components -->
+<script src="./app/components/add.component.js"></script>
+<script src="./app/components/contents.component.js"></script>
+<script src="./app/components/header.component.js"></script>
+<script src="./app/components/item.component.js"></script>
+<script src="./app/components/list.component.js"></script>
+
+<!-- i18n -->
+<script src="./app/i18n/english.constant.js"></script>
+<script src="./app/i18n/german.constant.js"></script>
+<script src="./app/i18n/i18n.config.js"></script>
+
+<!-- Stores -->
+<script src="./app/stores/reminders_store.service.js"></script>
+<script src="./app/stores/i18n_store.service.js"></script>
+
+</body>
+</html>

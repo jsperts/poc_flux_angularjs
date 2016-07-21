@@ -1,0 +1,16 @@
+<header>
+  <br/>
+  <br/>
+  <md-toolbar>
+    <div class="md-toolbar-tools">
+      <h3>{{'REMINDERS' | translate}}</h3>
+    </div>
+  </md-toolbar>
+
+  <md-input-container style="width: 30%">
+    <md-select ng-model="$ctrl.lang" ng-change="$ctrl.switchLang()" aria-label="language select">
+      <md-option ng-value="'en'">English</md-option>
+      <md-option ng-value="'de'">Deutsch</md-option>
+    </md-select>
+  </md-input-container>
+</header>

@@ -1,0 +1,8 @@
+<div layout="row" class="md-inline-form" layout-align="space-between start">
+  <md-input-container flex="50">
+    <label>{{'TITLE' | translate}}</label>
+    <input ng-model="$ctrl.reminder.title"/>
+  </md-input-container>
+  <md-datepicker ng-model="$ctrl.reminder.date"></md-datepicker>
+  <md-button ng-click="$ctrl.add()" class="md-primary md-raised">{{'ADD' | translate}}</md-button>
+</div>
