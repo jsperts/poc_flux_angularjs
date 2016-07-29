@@ -17,5 +17,5 @@ npm start
 In an other terminal run the API-Server with:
 
 ```bash
-npm start:json
+npm run start:json
 ```
